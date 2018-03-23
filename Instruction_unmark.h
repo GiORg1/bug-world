@@ -8,6 +8,9 @@ class Instruction_unmark: public Instruction
 private:
     int m;
     tstate z;
+public:
+    void execute(Bug b);
+    void parse(std::string& instr);
 };
 
 #endif
