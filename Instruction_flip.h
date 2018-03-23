@@ -11,6 +11,8 @@ private:
     int seed;
 public:
     int randomint();
+    void execute(Bug b);
+    void parse(std::string& instr);
 };
 
 #endif /* INSTRUCTION_FLIP_H */
